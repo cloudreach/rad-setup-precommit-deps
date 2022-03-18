@@ -29,3 +29,9 @@ jobs:
         pip install pre-commit
         pre-commit run --all-files
 ```
+
+## Building
+To make updates:
+* Install `ncc` with `npm -i -g install @vercel/ncc`
+* `ncc build index.js -o dist`
+* Commit updated `dist/`  directory
