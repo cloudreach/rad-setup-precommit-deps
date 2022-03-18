@@ -1,0 +1,24 @@
+{
+  "name": "rad-setup-precommit-deps",
+  "version": "1.0.0",
+  "description": "Gtihub Action to set up dependencies used for precommit checks in pipelines",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudreach/rad-setup-precommit-deps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudreach/rad-setup-precommit-deps/issues"
+  },
+  "homepage": "https://github.com/cloudreach/rad-setup-precommit-deps#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+name: 'RAD Setup precommit dependencies'
+description: 'Sets up precommit dependencies in your GitHub Actions workflow'
+author: 'software@cloudreach.com'
+inputs:
+  tflint_version:
+    description: TFLint version to install
+    required: false
+    default: v0.34.1
+  terraform_docs_version:
+    description: terrafrom-docs version to install
+    required: false
+    default: latest
+runs:
+  using: 'node12'
+  main:  'index.js'
+branding:
+  icon: 'terminal'
+  color: 'purple'
