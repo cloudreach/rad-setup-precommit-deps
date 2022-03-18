@@ -32,7 +32,7 @@ async function run() {
 
     const tfLintInputVersion = core.getInput('tflint_version');
     core.debug(`Getting download URL for tflint version ${tfLintInputVersion}`);
-    const tflintURL = `https://github.com/terraform-linters/tflint/releases/download/${tfLintInputVersion}/tflint-linux-amd64.tar.gz`;
+    const tflintURL = `https://github.com/terraform-linters/tflint/releases/download/${tfLintInputVersion}/tflint_linux_amd64.tar.gz`;
 
     const pathToTFLint = await downloadTool("tflint", tflintURL);
 
