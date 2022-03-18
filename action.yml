@@ -9,7 +9,7 @@ inputs:
   terraform_docs_version:
     description: terrafrom-docs version to install
     required: false
-    default: latest
+    default: v0.16.0
 runs:
   using: 'node12'
   main:  'dist/index.js'

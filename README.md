@@ -5,7 +5,7 @@ Gtihub Action to set up dependencies used for precommit checks in pipelines
 | Name | Description | Default |
 | ---- | ----------- |---------|
 | tflint_version | TFLint version to install | v0.34.1 | 
-| terraform_docs_version | terrafrom-docs version to install | latest |
+| terraform_docs_version | terrafrom-docs version to install | v0.16.0 |
 
 ## Example Workflow
 ```yaml
